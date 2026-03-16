@@ -1,0 +1,14 @@
+#!/bin/bash
+number=25
+
+# -gt -> greater than
+# -lt -> less than
+# -eq -> equal 
+# -ne -> not equal
+
+if [ $number -gt 20 ]; then
+  echo "Given number: $number is greater than 20"
+else
+  echo "Given number: $number is less than 20"
+fi
+
