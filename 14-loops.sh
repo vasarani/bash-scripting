@@ -12,7 +12,6 @@ mkdir -p $logs_folder
 VALIDATE(){
     if [ $1 -ne 0 ]; then
       echo "$2.... FAILURE" |tee -a $logs_file
-      exit 1
     else
       echo "$2.... SUCCESS"  |tee -a $logs_file
     fi 
