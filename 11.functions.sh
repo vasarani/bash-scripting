@@ -24,6 +24,6 @@ echo "Installing MYSQL"
 dnf install mysql -y
 VALIDATE $? "Installing MYSQL"
 
-echo "Installing NodqJs"
+echo "Installing NodeJs"
 dnf install nodejs -y
 VALIDATE $? "Installing NodeJs"
